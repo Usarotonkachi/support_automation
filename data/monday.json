@@ -1,0 +1,37 @@
+{
+  "now": "2026-11-23T10:00",
+  "cases": [
+    {
+      "id": "С-17",
+      "type": "onboarding",
+      "crm": {"first_day": "2026-11-24", "documents": "pending"},
+      "chat": [
+        {"role": "employee", "text": "Вчера отправил фотографии документов руководителю в личку."}
+      ]
+    },
+    {
+      "id": "С-24",
+      "type": "offboarding",
+      "crm": {"last_day": "2026-11-23", "manager_confirmed": false},
+      "chat": [
+        {"role": "employee", "text": "С руководителем всё обсудили, он в курсе."}
+      ]
+    },
+    {
+      "id": "П-08",
+      "type": "card_delivery",
+      "crm": {"status": "in_transit", "planned_by": "2026-11-23T10:00"},
+      "chat": [
+        {"role": "courier", "text": "Задерживаюсь, раньше 13:00 не приеду."}
+      ]
+    },
+    {
+      "id": "П-09",
+      "type": "card_delivery",
+      "crm": {"status": "accepted", "accepted_at": "2026-11-23T09:20"},
+      "chat": [
+        {"role": "recipient", "text": "Карты получили, количество проверили."}
+      ]
+    }
+  ]
+}
